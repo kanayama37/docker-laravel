@@ -30,4 +30,12 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+
+
+    'line' => [
+        'client_id'=>env('1656766166'),
+        'client_secret' =>env('de170c2fb4035eb5791d55e9c8e67a08'),
+        'redirect'=>env('https://123.227.120.34/callback'),
+    ],
+
 ];
