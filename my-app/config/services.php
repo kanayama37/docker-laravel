@@ -33,9 +33,9 @@ return [
 
 
     'line' => [
-        'client_id'=>env('1656766166'),
-        'client_secret' =>env('de170c2fb4035eb5791d55e9c8e67a08'),
-        'redirect'=>env('https://123.227.120.34/callback'),
+        'client_id'=>env('LINE_CHANNEL_ID'),
+        'client_secret' =>env('LINE_CHANNEL_SECRET'),
+        'redirect'=>env('LINE_REDIRECT'),
     ],
 
 ];

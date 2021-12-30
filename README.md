@@ -14,5 +14,8 @@ php artisan migrate:status
 php artisan migrate
 php artisan migrate:rollback
 
-2021-12-30 12:49:02
+
+2021-12-30 18:22:09
+
+Line Login OK
 
