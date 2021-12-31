@@ -1,6 +1,6 @@
 - PHP8・Laravel8・mysql・Nginx・docker・phpdebug3
 - 参考ブログ記事
-　https://maasaablog.com/development/laravel/docker/
+https://maasaablog.com/development/laravel/docker/
 
 docker-compose up -d
 
@@ -15,7 +15,7 @@ php artisan migrate
 php artisan migrate:rollback
 
 
-2021-12-30 18:22:09
+2021-12-31 09:11:56
 
 Line Login OK
 
