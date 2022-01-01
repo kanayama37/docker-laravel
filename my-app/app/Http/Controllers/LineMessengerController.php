@@ -28,7 +28,7 @@ class LineMessengerController extends Controller
             $bot = new LINEBot($http_client, ['channelSecret' => config('services.line.messenger_secret')]);
  
             // 送信するメッセージの設定
-            $reply_message='メッセージありがとうございますSPE';
+            $reply_message='金山昌弘様メッセージありがとうございます';
  
             // ユーザーにメッセージを返す
             $reply=$bot->replyText($reply_token, $reply_message);
